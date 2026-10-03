@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Book verified barbers, hair stylists and nail technicians near you with StylersIn." />
+    <title>StylersIn | Your stylist, booked from your phone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="/favicon.png">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="#top" aria-label="StylersIn home">
+          <span class="brand-mark">S</span>
+          <span class="brand-wordmark"><span>stylers</span><span>in</span></span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <div class="nav-socials" aria-label="Follow StylersIn">
+            <a href="https://www.facebook.com/Stylers_in" aria-label="Facebook" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 21v-8h3l.5-3H14V8.2c0-1.4.5-2.2 2.2-2.2H18V3.2c-.5-.1-1.4-.2-2.6-.2-2.8 0-4.7 1.7-4.7 4.9V10H8v3h2.7v8" /></svg>
+            </a>
+            <a href="https://x.com/" aria-label="Twitter on X" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 1.2h3.7l-8.1 9.2L24 22.8h-7.4l-5.8-7.6-6.6 7.6H.5l8.6-9.8L0 1.2h7.6l5.2 6.9zm-1.3 19.5h2L6.5 3.2h-2z" /></svg>
+            </a>
+            <a href="https://instagram.com/Stylers_In" aria-label="Instagram" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="18" cy="6" r="1.2" fill="currentColor" stroke="none" /></svg>
+            </a>
+            <a href="https://stylersin.com/" aria-label="StylersIn website" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8" /><path d="M3.5 12h17M12 3c2.2 2.4 3.3 5.4 3.3 9s-1.1 6.6-3.3 9c-2.2-2.4-3.3-5.4-3.3-9S9.8 5.4 12 3z" fill="none" stroke="currentColor" stroke-width="1.6" /></svg>
+            </a>
+          </div>
+          <a href="#about">About us</a>
+          <a href="#how">How it works</a>
+          <a href="#features">Features</a>
+          <a href="#stylers">For stylers</a>
+          <a href="#faq">FAQs</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="header-cta" href="#download">Get the app</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" id="home">
+        <div class="wrap hero-layout">
+          <div class="hero-copy">
+            <p class="hero-kicker"><span class="status-dot"></span> Verified stylers, right where you are</p>
+            <h1>Your stylist,<br /><span>booked from</span><br />your phone.</h1>
+            <p class="hero-intro">StylersIn connects you with verified barbers, hair stylists and nail technicians near you. Search, chat, book, track their arrival and pay, all from the comfort of your home.</p>
+            <div class="store-links" id="download-hero">
+              <a class="store-badge" href="#download" aria-label="Get it on Google Play">
+                <img src="assets/google.png" alt="Get it on Google Play" />
+              </a>
+              <a class="store-badge store-badge-apple" href="https://apps.apple.com/ng/app/stylersin/id6482108608" aria-label="Download on the App Store">
+                <img src="assets/apple.png" alt="Download on the App Store" />
+              </a>
+            </div>
+            <p class="trust-note"><span aria-hidden="true">✓</span> Every stylist on the app is verified, so you get the best experience.</p>
+          </div>
+
+          <div class="hero-visual">
+            <span class="hero-orbit orbit-one" aria-hidden="true"></span>
+            <span class="hero-orbit orbit-two" aria-hidden="true"></span>
+            <img class="hero-phone" src="assets/pink.png" alt="StylersIn booking experience displayed on a pink smartphone" />
+            <div class="hero-notice notice-arrival">
+              <span class="notice-icon" aria-hidden="true">S</span>
+              <span><strong>Styler on the way</strong><small>Track them in real time</small></span>
+              <span class="live-dot" aria-hidden="true"></span>
+            </div>
+            <div class="hero-notice notice-booking">
+              <span class="booking-mark" aria-hidden="true">✓</span>
+              <span><strong>Appointment booked</strong><small>Haircut · 11:30 am</small></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service-strip" aria-label="Available services">
+        <div class="wrap service-strip-inner">
+          <p>Good looks, on your schedule</p>
+          <ul class="service-list">
+            <li>Haircut</li><li>Braiding</li><li>Weaves</li><li>Locks</li><li>Crochet</li><li>Hair dyeing</li><li>Hair treatment</li><li>Makeup</li><li>Manicure</li><li>Pedicure</li><li>Nail fixing</li><li>Bridal styling</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about-section section-pad" id="about">
+        <div class="wrap about-layout">
+          <figure class="about-image">
+            <img src="assets/barbershop.png?v=2" alt="StylersIn scalp-care promotion showing a stylist treating a client’s hair" />
+            <figcaption><span>01</span> Your next good hair day starts here.</figcaption>
+          </figure>
+          <div class="about-copy">
+            <p class="section-kicker">The easy way to feel like you</p>
+            <h2>Good hair days,<br /><span>without the hunt.</span></h2>
+            <p>The StylersIn mobile app connects you with a network of elite stylers in your area. Whether you are looking for a barber, a hair stylist or a nail technician, StylersIn has you covered.</p>
+            <p>Search through stylers, message them, book appointments, track their arrival in real time, pay inside the app and rate your experience, all without leaving home.</p>
+            <div class="audience-points">
+              <div><strong>For customers</strong><span>Find the right styler for your look, budget and location, then book in a few taps.</span></div>
+              <div><strong>For stylers and shop owners</strong><span>Reach new clients, run your bookings and get paid, from one dashboard.</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section about-section--alternate section-pad" aria-labelledby="about-alternate-heading">
+        <div class="wrap about-layout">
+          <div class="about-copy">
+            <p class="section-kicker">Beauty, on your terms</p>
+            <h2 id="about-alternate-heading">Your time.<br /><span>Your style.</span></h2>
+            <p>StylersIn brings great grooming closer to home. Discover trusted barbers, hair stylists and nail technicians who match your taste, timing and budget.</p>
+            <p>From your first search to your final rating, everything stays in one place. Explore portfolios, chat before you book, choose a time that works for you and stay updated on every appointment.</p>
+            <div class="audience-points">
+              <div><strong>For customers</strong><span>Book people you feel good about, with the details you need to choose confidently.</span></div>
+              <div><strong>For stylers and shop owners</strong><span>Get discovered by more local clients and spend less time managing bookings.</span></div>
+            </div>
+          </div>
+          <figure class="about-image">
+            <img src="assets/4.jpeg" alt="Barber providing a haircut for a client in a salon" />
+            <figcaption><span>02</span> The kind of convenience your routine deserves.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="how-section section-pad" id="how">
+        <div class="wrap">
+          <div class="section-heading how-heading">
+            <div><p class="section-kicker">A better way to book</p><h2>How it works</h2></div>
+            <div class="mode-tabs" role="tablist" aria-label="Choose how you use StylersIn">
+              <button class="mode-tab is-active" id="customer-mode" type="button" role="tab" aria-selected="true" aria-controls="customer-steps" data-mode="customer">I want to book a styler</button>
+              <button class="mode-tab" id="styler-mode" type="button" role="tab" aria-selected="false" aria-controls="styler-steps" data-mode="styler">I am a styler</button>
+            </div>
+          </div>
+
+          <div class="steps-panel" id="customer-steps" role="tabpanel" aria-labelledby="customer-mode" data-mode-panel="customer">
+            <ol class="steps-list">
+              <li><span class="step-number">01</span><h3>Search</h3><p>Browse by service or by styler and compare ratings, prices and locations.</p></li>
+              <li><span class="step-number">02</span><h3>Message</h3><p>Chat with your styler to agree on the look, the time and the price.</p></li>
+              <li><span class="step-number">03</span><h3>Book</h3><p>Pick a date and time slot, add your location and set a reminder.</p></li>
+              <li><span class="step-number">04</span><h3>Track</h3><p>Follow your styler in real time as they make their way to you.</p></li>
+              <li><span class="step-number">05</span><h3>Pay and rate</h3><p>Pay securely in the app, then rate your styler so others can choose well.</p></li>
+            </ol>
+          </div>
+
+          <div class="steps-panel" id="styler-steps" role="tabpanel" aria-labelledby="styler-mode" data-mode-panel="styler" hidden>
+            <ol class="steps-list">
+              <li><span class="step-number">01</span><h3>Join</h3><p>Create your stylist or shop profile and join a network of local clients.</p></li>
+              <li><span class="step-number">02</span><h3>Showcase</h3><p>Build a shop online and display the work and services you offer.</p></li>
+              <li><span class="step-number">03</span><h3>Set your schedule</h3><p>Manage appointments and open time slots from one simple dashboard.</p></li>
+              <li><span class="step-number">04</span><h3>Meet new clients</h3><p>Grow your clientele and keep bookings organized from your phone.</p></li>
+              <li><span class="step-number">05</span><h3>Get paid</h3><p>Receive payments securely and cash out when it suits you.</p></li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="features-section section-pad" id="features">
+        <div class="wrap">
+          <div class="section-heading features-heading">
+            <div><p class="section-kicker">Made for your routine</p><h2>Everything you need,<br /><span>in one app.</span></h2></div>
+            <p>Tap a feature to see how StylersIn makes your next appointment easier.</p>
+          </div>
+
+          <div class="feature-layout">
+            <div class="feature-picker" role="group" aria-label="Explore app features">
+              <button class="feature-choice is-active" type="button" aria-pressed="true" data-feature-title="Discover stylers and deals" data-feature-copy="See popular stylers, nearby shops and services picked for you." data-feature-label="A good place to start">Discover stylers and deals</button>
+              <button class="feature-choice" type="button" aria-pressed="false" data-feature-title="Search everything at once" data-feature-copy="Find barbers, hair stylists, nail technicians and services near you." data-feature-label="Your area, covered">Search everything at once</button>
+              <button class="feature-choice" type="button" aria-pressed="false" data-feature-title="Chat before you book" data-feature-copy="Talk through your look, timing and price before you confirm an appointment." data-feature-label="Make a plan together">Chat before you book</button>
+              <button class="feature-choice" type="button" aria-pressed="false" data-feature-title="Book a time that suits you" data-feature-copy="Choose an available time, add your location and set a reminder." data-feature-label="A time that works">Book a time that suits you</button>
+              <button class="feature-choice" type="button" aria-pressed="false" data-feature-title="Keep track of every appointment" data-feature-copy="See upcoming bookings and follow your styler as they make their way to you." data-feature-label="Your plans, in one place">Keep track of every appointment</button>
+            </div>
+
+            <div class="feature-demo" aria-live="polite">
+              <div class="demo-topbar"><span class="demo-brand"><strong>stylers<span>in</span></strong></span><span class="demo-avatar">You</span></div>
+              <div class="demo-body">
+                <p class="demo-label" data-feature-label-display>A good place to start</p>
+                <h3 data-feature-title-display>Discover stylers and deals</h3>
+                <p class="demo-description" data-feature-copy-display>See popular stylers, nearby shops and services picked for you.</p>
+                <div class="demo-search"><span aria-hidden="true">⌕</span> Search services, stylers and shops</div>
+                <div class="demo-service-row" aria-label="Popular services"><span>Barber</span><span>Hair</span><span>Nails</span></div>
+                <div class="demo-listing">
+                  <span class="listing-avatar" aria-hidden="true">S</span>
+                  <span class="listing-copy"><strong>Verified near you</strong><small>Barbers · Hair · Nails</small></span>
+                  <span class="listing-arrow" aria-hidden="true">↗</span>
+                </div>
+                <div class="demo-listing listing-second">
+                  <span class="listing-avatar avatar-pink" aria-hidden="true">+</span>
+                  <span class="listing-copy"><strong>Find your next look</strong><small>Browse services and shops</small></span>
+                  <span class="listing-arrow" aria-hidden="true">↗</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="app-showcase" aria-label="StylersIn app screenshot gallery">
+            <figure class="app-screen app-screen--welcome">
+              <img src="assets/app1.PNG" alt="StylersIn welcome screen after creating an account" loading="lazy" decoding="async" />
+              <figcaption>Get started</figcaption>
+            </figure>
+            <figure class="app-screen app-screen--profile">
+              <img src="assets/app2.PNG" alt="Styler profile with services and products" loading="lazy" decoding="async" />
+              <figcaption>Build your profile</figcaption>
+            </figure>
+            <figure class="app-screen app-screen--rates">
+              <img src="assets/app3.PNG" alt="Service-rate editor for haircuts, dyeing and treatments" loading="lazy" decoding="async" />
+              <figcaption>Set your services</figcaption>
+            </figure>
+            <figure class="app-screen app-screen--portfolio">
+              <img src="assets/app4.PNG" alt="Styler profile with services and portfolio" loading="lazy" decoding="async" />
+              <figcaption>Show your work</figcaption>
+            </figure>
+            <figure class="app-screen app-screen--discover">
+              <img src="assets/app5.PNG" alt="StylersIn home screen for discovering nearby services and stylists" loading="lazy" decoding="async" />
+              <figcaption>Discover nearby stylers</figcaption>
+            </figure>
+          </div>
+
+          <div class="trust-features">
+            <div><strong>Secure payments</strong><span>Pay your styler inside the app through a secure payment platform.</span></div>
+            <div><strong>Accurate geo-location</strong><span>Find stylers close to you and know when they will arrive.</span></div>
+            <div><strong>Ratings you can trust</strong><span>Every booking can be rated, so quality stylers rise to the top.</span></div>
+            <div><strong>For every age and gender</strong><span>Quality, affordable stylers for the whole family.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="campaign-section section-pad" id="inspiration" aria-labelledby="campaign-heading">
+        <div class="wrap">
+          <div class="campaign-heading">
+            <div><p class="section-kicker">A little StylersIn inspiration</p><h2 id="campaign-heading">Looks, people<br />and possibilities.</h2></div>
+            <p>From a well-earned moment of care to a growing styling business, there’s a place for you here.</p>
+          </div>
+
+          <div class="campaign-carousel" aria-label="StylersIn campaign gallery" tabindex="0">
+            <figure class="campaign-art">
+              <img class="campaign-image" src="assets/1.jpeg" alt="StylersIn massage and self-care campaign" />
+              <figcaption class="visually-hidden" aria-live="polite" data-campaign-position>Image 1 of 6</figcaption>
+            </figure>
+            <div class="campaign-details" aria-live="polite">
+              <p class="campaign-category" data-campaign-category>Wellbeing</p>
+              <h3 data-campaign-title>A pause, made for you.</h3>
+              <p class="campaign-description" data-campaign-description>Find services that help you feel cared for, from massage to a fresh new style.</p>
+              <div class="campaign-controls">
+                <button class="campaign-arrow" type="button" data-campaign-prev aria-label="Previous image" aria-controls="campaign-image">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m7 7-7-7 7-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                </button>
+                <div class="campaign-indicators" role="group" aria-label="Choose a campaign image">
+                  <button type="button" class="is-active" data-campaign-go="0" aria-label="Show image 1" aria-pressed="true"></button>
+                  <button type="button" data-campaign-go="1" aria-label="Show image 2" aria-pressed="false"></button>
+                  <button type="button" data-campaign-go="2" aria-label="Show image 3" aria-pressed="false"></button>
+                  <button type="button" data-campaign-go="3" aria-label="Show image 4" aria-pressed="false"></button>
+                  <button type="button" data-campaign-go="4" aria-label="Show image 5" aria-pressed="false"></button>
+                  <button type="button" data-campaign-go="5" aria-label="Show image 6" aria-pressed="false"></button>
+                </div>
+                  <button class="campaign-arrow campaign-toggle" type="button" data-campaign-toggle aria-label="Pause slideshow" aria-pressed="false">
+                    <svg class="pause-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>
+                    <svg class="play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7V5Z" fill="currentColor" /></svg>
+                  </button>
+                <button class="campaign-arrow" type="button" data-campaign-next aria-label="Next image" aria-controls="campaign-image">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="styler-section section-pad" id="stylers">
+        <div class="wrap styler-layout">
+          <div class="styler-copy">
+            <p class="section-kicker">For the people behind the chair</p>
+            <h2>Get connected<br />to <span>clients.</span></h2>
+            <p>Barbers, stylists, nail technicians and shop owners: StylersIn brings the customers to you and gives you the tools to run your business from your phone.</p>
+            <ul class="styler-benefits">
+              <li>Build your clientele</li><li>Create a shop online</li><li>Display your work</li><li>Manage appointments</li><li>Set free time slots</li><li>Make money and cash out</li>
+            </ul>
+            <div class="styler-actions"><a class="button button-pink" href="#download">Sign up as a styler</a><a class="text-link" href="#faq">Read the FAQs <span aria-hidden="true">↗</span></a></div>
+          </div>
+          <div class="styler-dashboard" aria-label="Preview of the stylist booking dashboard">
+            <div class="dashboard-heading"><span>stylers<span>in</span></span><span class="dashboard-menu">•••</span></div>
+            <div class="dashboard-greeting"><small>Your week</small><strong>Appointments at a glance</strong></div>
+            <div class="dashboard-days"><span>MON<strong>12</strong></span><span class="day-current">TUE<strong>13</strong></span><span>WED<strong>14</strong></span><span>THU<strong>15</strong></span><span>FRI<strong>16</strong></span></div>
+            <div class="dashboard-booking"><span class="booking-time">10:30</span><span class="booking-line"></span><span><strong>Hair appointment</strong><small>New booking · Confirmed</small></span></div>
+            <div class="dashboard-booking"><span class="booking-time">12:00</span><span class="booking-line booking-line-pink"></span><span><strong>Manicure</strong><small>Returning client · Confirmed</small></span></div>
+            <div class="dashboard-availability"><span class="availability-dot"></span> Your profile is visible to nearby clients</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section section-pad" id="faq">
+        <div class="wrap faq-layout">
+          <div class="faq-intro">
+            <p class="section-kicker">A little more clarity</p>
+            <h2>Questions,<br /><span>answered.</span></h2>
+            <p>Can't find what you're looking for? Get in touch and we’ll help you out.</p>
+            <a class="text-link contact-inline" href="#contact">Contact the team <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="faq-list">
+            <details open><summary>What is StylersIn?</summary><p>StylersIn connects you with verified barbers, hair stylists and nail technicians near you, so you can find, message and book from your phone.</p></details>
+            <details><summary>Which services can I book?</summary><p>Book haircuts, braiding, weaves, locks, crochet, hair dyeing and treatment, makeup, manicures, pedicures, nail services and bridal styling.</p></details>
+            <details><summary>Will the styler come to my home?</summary><p>You can discuss the service location with your styler before confirming your booking.</p></details>
+            <details><summary>Are the stylers verified?</summary><p>Stylers on the app are verified, helping you book with more confidence.</p></details>
+            <details><summary>How do I pay?</summary><p>Pay securely inside the app after arranging your appointment.</p></details>
+            <details><summary>How do I join as a styler or shop owner?</summary><p>Use the “Sign up as a styler” link to get started and create your profile or shop.</p></details>
+            <details><summary>How do I reach customer support?</summary><p>Call us or email the support team using the contact details below.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="wrap contact-layout">
+          <div><p class="section-kicker">Need a hand?</p><h2>We’re easy to reach.</h2></div>
+          <a href="tel:+2348145558251"><small>Call us</small><strong>0814 555 8251</strong></a>
+          <a href="mailto:mail@stylersin.com"><small>Email us</small><strong>mail@stylersin.com</strong></a>
+        </div>
+      </section>
+
+      <section class="download-section" id="download">
+        <div class="wrap download-layout">
+          <div><p class="section-kicker">Make room for a good hair day</p><h2>Your next appointment<br />is a tap away.</h2><p>Download StylersIn and book a verified styler today. Terms and conditions apply.</p></div>
+          <div class="download-visual">
+            <div class="store-links">
+              <a class="store-badge" href="#download" aria-label="Get it on Google Play"><img src="assets/google.png" alt="Get it on Google Play" /></a>
+              <a class="store-badge store-badge-apple" href="https://apps.apple.com/ng/app/stylersin/id6482108608" aria-label="Download on the App Store"><img src="assets/apple.png" alt="Download on the App Store" /></a>
+            </div>
+            <img class="download-phone" src="assets/appleframe.PNG" alt="StylersIn sign-in screen displayed on a phone" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-main">
+        <div class="footer-brand-block">
+          <a class="brand footer-brand" href="#top" aria-label="StylersIn home"><span class="brand-mark">S</span><span class="brand-wordmark"><span>stylers</span><span>in</span></span></a>
+          <p>Barbers, hair stylists and nail technicians you can trust, booked from your phone.</p>
+        </div>
+        <div class="footer-column"><h3>Explore</h3><a href="#about">About us</a><a href="#how">How it works</a><a href="#features">Features</a><a href="#stylers">For stylers</a><a href="#faq">FAQs</a></div>
+        <div class="footer-column"><h3>Contact</h3><a href="tel:+2348145558251">0814 555 8251</a><a href="mailto:mail@stylersin.com">mail@stylersin.com</a><a href="https://stylersin.com/" target="_blank" rel="noreferrer">stylersin.com</a></div>
+        <div class="footer-column footer-social">
+          <h3>Follow us</h3>
+          <div class="footer-social-links" aria-label="StylersIn social media">
+            <a href="https://instagram.com/Stylers_In" target="_blank" rel="noreferrer" aria-label="Instagram: Stylers_In">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="18" cy="6" r="1.2" fill="currentColor" stroke="none" /></svg>
+            </a>
+            <a href="https://facebook.com/Stylers_in" target="_blank" rel="noreferrer" aria-label="Facebook: Stylers_in">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 21v-8h3l.5-3H14V8.2c0-1.4.5-2.2 2.2-2.2H18V3.2c-.5-.1-1.4-.2-2.6-.2-2.8 0-4.7 1.7-4.7 4.9V10H8v3h2.7v8" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="wrap footer-bottom"><span>© <span id="year">2026</span> StylersIn. All rights reserved | Designed by <a href="https://if-media.com" target="_blank" rel="noreferrer">IF Media Ltd</a></span><span class="footer-legal"><a href="terms-and-conditions.html">Terms and conditions</a><span aria-hidden="true">·</span><a href="privacy-policy.html">Privacy policy</a><span aria-hidden="true">·</span><a href="delete-account.html">Delete account</a></span></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
